@@ -1,0 +1,138 @@
+/* Basic Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Header Styling */
+header {
+    background-color: #005b96;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin-top: 5px;
+    font-size: 1.2em;
+}
+
+/* Navbar Styling */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #e0e0e0;
+    padding: 10px 0;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #005b96;
+}
+
+/* Section Styling */
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 28px;
+    color: #005b96;
+    margin-bottom: 20px;
+}
+
+section p, section ol, section ul {
+    font-size: 16px;
+    color: #555;
+    margin: 0 auto;
+    max-width: 800px;
+    line-height: 1.6;
+}
+
+/* Hero Section Styling */
+.hero {
+    background-color: #e0f7fa;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hero img {
+    width: 80%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.hero h2 {
+    font-size: 28px;
+    margin-top: 20px;
+    color: #005b96;
+}
+
+/* Benefits Section Styling */
+.benefits {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.benefit {
+    background-color: white;
+    padding: 20px;
+    width: 30%;
+    min-width: 250px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.benefit h3 {
+    font-size: 18px;
+    color: #005b96;
+}
+
+.benefit p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #005b96;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .benefits {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .benefit {
+        width: 80%;
+    }
+}
